@@ -12,5 +12,7 @@ Dont worry, there is a simple solution to your dire situation.
 Its easy dont worry. All you have to do is click on the circle tht is half white half black in the bottom left hand corner of the page.
 
 ### An image to help you out
-![Desktop View](https://drive.google.com/uc?export=view&id=1-2uWtJoVM5y3m7bHwzY9ljwIDuGeI55n){: width="972" height="547" }
+![Desktop View](https://drive.google.com/uc?export=view&id=1-2uWtJoVM5y3m7bHwzY9ljwIDuGeI55n){: width="972" height="547" } 
 _An image pointing to exactly where the dark mode button is_
+
+Click this link to see image if image does not load <https://drive.google.com/uc?export=view&id=1-2uWtJoVM5y3m7bHwzY9ljwIDuGeI55n>
