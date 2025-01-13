@@ -98,7 +98,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: https://drive.google.com/uc?export=view&id=1tRjUMw_sx6rb-OeAxzQXANjHp7PjlNDu
+avatar: "/assets/Lojayn.png"
 
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
