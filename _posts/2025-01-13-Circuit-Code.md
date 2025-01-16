@@ -92,11 +92,11 @@ def update_leds():
     GPIO.output(RED_LED_PIN, GPIO.LOW)
 
     # Turn on appropriate LED based on current speed
-    if SPEEDS[current_speed] == 25:
+    if SPEEDS[current_speed] == 10:
         GPIO.output(GREEN_LED_PIN, GPIO.HIGH)
-    elif SPEEDS[current_speed] == 50:
+    elif SPEEDS[current_speed] == 30:
         GPIO.output(YELLOW_LED_PIN, GPIO.HIGH)
-    elif SPEEDS[current_speed] == 75:
+    elif SPEEDS[current_speed] == 90:
         GPIO.output(RED_LED_PIN, GPIO.HIGH)
 
 # Function to activate the buzzer for 3 seconds
