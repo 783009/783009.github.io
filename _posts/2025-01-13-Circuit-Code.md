@@ -23,7 +23,7 @@ YELLOW_LED_PIN = 25
 RED_LED_PIN = 5
 
 # Speed settings (Duty cycle for PWM)
-SPEEDS = [25, 50, 75]  # Slow, Medium, Fast
+SPEEDS = [10, 30, 90]  # Slow, Medium, Fast
 current_speed = 0       # Index for current speed (0 = slow, 1 = medium, 2 = fast)
 machine_running = False
 machine_paused = False
