@@ -17,6 +17,11 @@ SPEED_PIN = 22        # Button 3 (Speed cycle)
 PWM_PIN = 18          # Motor PWM control
 BUZZER_PIN = 23       # Buzzer pin
 
+# LED pin assignments (green, yellow, red)
+GREEN_LED_PIN = 24
+YELLOW_LED_PIN = 25
+RED_LED_PIN = 5
+
 # Speed settings (Duty cycle for PWM)
 SPEEDS = [25, 50, 75]  # Slow, Medium, Fast
 current_speed = 0       # Index for current speed (0 = slow, 1 = medium, 2 = fast)
@@ -30,6 +35,11 @@ GPIO.setup(STOP_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)         # Button 2
 GPIO.setup(SPEED_PIN, GPIO.IN, pull_up_down=GPIO.PUD_UP)        # Button 3
 GPIO.setup(PWM_PIN, GPIO.OUT)                                   # Motor PWM pin
 GPIO.setup(BUZZER_PIN, GPIO.OUT)                                 # Buzzer pin
+
+# Setup LED pins
+GPIO.setup(GREEN_LED_PIN, GPIO.OUT)
+GPIO.setup(YELLOW_LED_PIN, GPIO.OUT)
+GPIO.setup(RED_LED_PIN, GPIO.OUT)
 
 # Setup PWM for motor control
 pwm_motor = GPIO.PWM(PWM_PIN, 1000)  # PWM frequency = 1kHz
@@ -60,6 +70,10 @@ def stop_machine(channel):
     pwm_motor.ChangeDutyCycle(0)  # Stop motor
     machine_running = False
     machine_paused = False
+    # Turn off all LEDs
+    GPIO.output(GREEN_LED_PIN, GPIO.LOW)
+    GPIO.output(YELLOW_LED_PIN, GPIO.LOW)
+    GPIO.output(RED_LED_PIN, GPIO.LOW)
 
 # Function to cycle through the speeds
 def cycle_speed(channel):
@@ -68,6 +82,22 @@ def cycle_speed(channel):
     if machine_running and not machine_paused:
         print(f"Changing speed to {SPEEDS[current_speed]}%")
         pwm_motor.ChangeDutyCycle(SPEEDS[current_speed])
+    update_leds()  # Update LEDs when speed changes
+
+# Function to update LEDs based on the current speed
+def update_leds():
+    # Turn off all LEDs
+    GPIO.output(GREEN_LED_PIN, GPIO.LOW)
+    GPIO.output(YELLOW_LED_PIN, GPIO.LOW)
+    GPIO.output(RED_LED_PIN, GPIO.LOW)
+
+    # Turn on appropriate LED based on current speed
+    if SPEEDS[current_speed] == 25:
+        GPIO.output(GREEN_LED_PIN, GPIO.HIGH)
+    elif SPEEDS[current_speed] == 50:
+        GPIO.output(YELLOW_LED_PIN, GPIO.HIGH)
+    elif SPEEDS[current_speed] == 75:
+        GPIO.output(RED_LED_PIN, GPIO.HIGH)
 
 # Function to activate the buzzer for 3 seconds
 def activate_buzzer():
