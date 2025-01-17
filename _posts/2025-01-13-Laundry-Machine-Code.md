@@ -1,11 +1,11 @@
 ---
-title: "Circuit Project Code"
+title: "Laundry Machine Code"
 date: 2025-01-13
 categories: [projects, Documentation]
 tags: [Code, Python]
 ---
 ###### This is a post that includes the code for the laundry machine circuit project
-Go to the about page to see all the features that the code runs in the machine
+Go to the about page to see all the features that the code runs in the machine (features found in the about page)
 
 ```python
 import RPi.GPIO as GPIO
