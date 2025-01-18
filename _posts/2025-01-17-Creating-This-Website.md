@@ -45,5 +45,3 @@ There is a very thorough and detailed explanation on how to make a post created 
 
 ### Video
 This is the video I used while making this website however I did not use jekyll or VS code i only used it to learn how to start up my website.
-
-{% include embed/youtube.html id='fX8d3SgdTbo&t' %}
