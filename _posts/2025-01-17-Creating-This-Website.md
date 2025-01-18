@@ -42,3 +42,8 @@ After removing thoes lines you can write whatever you want using Markdown syntax
 ## Making a post
 
 There is a very thorough and detailed explanation on how to make a post created by the creator of this template at <https://chirpy.cotes.page/posts/write-a-new-post/>
+
+### Video
+This is the video I used while making this website however I did not use jekyll or VS code i only used it to learn how to start up my website.
+fX8d3SgdTbo&t=510s
+{% include embed/youtube.html id='fX8d3SgdTbo&t' %}
