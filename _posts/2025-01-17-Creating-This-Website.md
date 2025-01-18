@@ -15,7 +15,7 @@ This post will go through how I made this website step-by-step. MAKE SURE TO REA
 
 ## Configuration
 
-Update the variables in `_config.yml`{: .filepath} as needed. Some typical options include:
+Update the variables in `_config.yml` as needed. Some typical options include:
 
 * `title` (line 17)
 * `tagline` (line 19)
@@ -29,10 +29,10 @@ Update the variables in `_config.yml`{: .filepath} as needed. Some typical optio
 When you are done click <kbd>Commit changes...</kbd>.
 
 ## Setting your avatar
-To set your avatar which is the profile picture at the top of your navigation bar simply choose a folder such as `assets`{: .filepath} and upload a square image into it and click <kbd>Commit changes...</kbd>. After that go to `_config.yml`{: .filepath} line 101 and type `/YourFolderName/ImageName.ImageType`{: .filepath}. For example `/assets/Lojayn.png`{: .filepath}. Then click <kbd>Commit changes...</kbd>.
+To set your avatar which is the profile picture at the top of your navigation bar simply choose a folder such as `assets` and upload a square image into it and click <kbd>Commit changes...</kbd>. After that go to `_config.yml` line 101 and type `/YourFolderName/ImageName.ImageType`. For example `/assets/Lojayn.png`. Then click <kbd>Commit changes...</kbd>.
 
 ## About tab
-To edit the the About tab on your website go to the `_tabs`{: .filepath} folder and go into `about.md`{: .filepath}. Proceed to removing the following lines.
+To edit the the About tab on your website go to the `_tabs` folder and go into `about.md`. Proceed to removing the following lines.
 ```Markdown
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
