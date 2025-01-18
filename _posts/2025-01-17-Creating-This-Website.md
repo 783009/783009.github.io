@@ -33,7 +33,7 @@ To set your avatar which is the profile picture at the top of your navigation ba
 
 ## About tab
 To edit the the About tab on your website go to the `_tabs` folder and go into `about.md`. Proceed to removing the following lines.
-```Markdown
+``` Markdown
 > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip }
 ```
