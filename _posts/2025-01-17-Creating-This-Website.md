@@ -17,14 +17,14 @@ This post will go through how I made this website step-by-step. MAKE SURE TO REA
 
 Update the variables in `_config.yml`{: .filepath} as needed. Some typical options include:
 
-- `title` (line 17)
-- `tagline` (line 19)
-- `url` (line 26)
-- `username` (line 29)
-- `avatar` (line 101)
-- `timezone` (line 12)
-- `lang` (line 9)
-- `email` (line 38)
+* `title` (line 17)
+* `tagline` (line 19)
+* `url` (line 26)
+* `username` (line 29)
+* `avatar` (line 101)
+* `timezone` (line 12)
+* `lang` (line 9)
+* `email` (line 38)
 
 When you are done click <kbd>Commit changes...</kbd>.
 
@@ -45,5 +45,5 @@ There is a very thorough and detailed explanation on how to make a post created 
 
 ### Video
 This is the video I used while making this website however I did not use jekyll or VS code i only used it to learn how to start up my website.
-fX8d3SgdTbo&t=510s
+
 {% include embed/youtube.html id='fX8d3SgdTbo&t' %}
