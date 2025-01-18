@@ -2,7 +2,7 @@
 title: "Getting started"
 date: 2025-01-17
 categories: [projects, Documentation, Tutorial]
-tags: [Website, Chirpy, GitHub Pages, Tutorial]
+tags: [Website, Chirpy, GitHubPages, Tutorial]
 ---
 # Creating this website
 This post will go through how I made this website step-by-step. MAKE SURE TO READ THE WHOLE SECTION BEFORE DOING ANYTHING.
