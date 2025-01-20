@@ -59,6 +59,21 @@ tags: [TAG]     # TAG names should always be lowercase
 ### Writing a post
 After you have created the front matter you can write whatevery you want using [**Markdown syntax**](https://www.markdownguide.org/basic-syntax/)
 
+### Getting an image on your post
+To put a video in your post choose a folder such as `assets`{: .filepath} and upload a image into it and click <kbd>Commit changes...</kbd>. After that go to your post and type the following.
+```Markdown
+![img-description](/path/to/image)
+_Image Caption_
+```
+Replace `/path/to/image` with the path to your image. For example `/assets/Lojayn.png`{: .filepath}. Then click <kbd>Commit changes...</kbd>.
+
+### Getting a video on your post
+To put a video in your post choose a folder such as `assets`{: .filepath} and upload a video into it and click <kbd>Commit changes...</kbd>. After that go to your post and type
+```Markdown
+{% include embed/video.html src='{PATH}' %}
+```
+. Replace path with the path to your video. For example `/assets/Lojayn.mp4`{: .filepath}. Then click <kbd>Commit changes...</kbd>.
+
 ## Video
 This is the video I used while making this website however I did not use jekyll or VS code i only used it to learn how to start up my website.
 
