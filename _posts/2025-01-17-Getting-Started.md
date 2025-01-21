@@ -69,10 +69,12 @@ Replace `/path/to/image` with the path to your image. For example `/assets/Lojay
 
 ### Getting a video on your post
 To put a video in your post choose a folder such as `assets`{: .filepath} and upload a video into it and click <kbd>Commit changes...</kbd>. After that go to your post and type
-```Markdown
-{% include embed/video.html src='{PATH}' %}
+```liquid
+{% raw %}
+{% include embed/video.html src='{URL}' %}
+{% endraw %}
 ```
-. Replace path with the path to your video. For example `/assets/Lojayn.mp4`{: .filepath}. Then click <kbd>Commit changes...</kbd>.
+. Replace URL with the path to your video. For example `/assets/Lojayn.mp4`{: .filepath}. Then click <kbd>Commit changes...</kbd>.
 
 ## Video
 This is the video I used while making this website however I did not use jekyll or VS code i only used it to learn how to start up my website.
