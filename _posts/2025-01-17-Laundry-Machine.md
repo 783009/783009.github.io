@@ -23,6 +23,6 @@ _An image of the inner cylinder of the laundry machine with clothes inside it_
 _An image of the buttons that operate the laundry machine_
 
 ## Video's
-{% include embed/video.html src='/assets/StopVid.MOV' %}
+{% include embed/video.html src='/assets/StopVid.mp4' %}
 
-{% include embed/video.html src='/assets/Speeds.mov' %}
+{% include embed/video.html src='/assets/Speeds.mp4' %}
