@@ -6,6 +6,10 @@ tags: [adobe animate, interactive, HTML5, Riddle]
 ---
 Check out my interactive Adobe Animate island riddle project below!
 
+<iframe src="/assets/Island.html" width="800" height="600" style="border:none;"></iframe>
+
+
+```
 <iframe 
   src="/assets/Island.html" 
   width="800" 
