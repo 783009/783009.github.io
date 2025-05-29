@@ -6,4 +6,6 @@ tags: [adobe animate, interactive, HTML5, Riddle]
 ---
 Check out my interactive Adobe Animate island riddle project below!
 
-<iframe src="https://783009.github.io/IslandAnimation/" width="1280" height="720" style="border:none;"></iframe>
+{% raw %}
+<iframe src="https://783009.github.io/IslandAnimation/" width="800" height="600" style="border: 1px solid #ccc;"></iframe>
+{% endraw %}
