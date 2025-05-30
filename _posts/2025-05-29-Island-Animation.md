@@ -10,7 +10,7 @@ Check out my interactive Adobe Animate island riddle project below!
 
 <iframe 
   src="https://783009.github.io/IslandAnimation/"
-  width="600"
+  width="620"
   height="360"
   style="border: 12px solid #333; border-radius: 8px;">
 </iframe>
