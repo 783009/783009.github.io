@@ -2,7 +2,7 @@
 title: "Interactive Island Animation Riddle"
 date: 2025-05-29
 categories: [Projects, Animation]
-tags: [adobe animate, interactive, HTML5, Riddle]
+tags: [adobe animate, interactive, HTML5, Riddle, embed, GitHub Pages, Website, Tutorial]
 ---
 # Island Animation Riddle
 
@@ -49,6 +49,18 @@ To veiw your animation go to **https://`YourGithubUsername`.github.io/`Repositor
 
 ###### Example
 
-[<kbd>My repository</kbd>](https://github.com/783009/IslandAnimation)
-[<kbd>Animation</kbd>](https://783009.github.io/IslandAnimation/)  https://783009.github.io/IslandAnimation/
+[My repository](https://github.com/783009/IslandAnimation)
 
+[Animation](https://783009.github.io/IslandAnimation/)  https://783009.github.io/IslandAnimation/
+
+### How i got it on my website
+Just used this code
+```html
+<iframe 
+  src="https://783009.github.io/IslandAnimation/"
+  width="621"
+  height="360"
+  style="border: 12px solid #333; border-radius: 8px;">
+</iframe>
+```
+To make a website like this visit [**Getting Started**](https://783009.github.io/posts/Getting-Started/)
