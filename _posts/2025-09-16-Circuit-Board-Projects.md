@@ -48,10 +48,10 @@ Here’s the full table of values for all switches:
 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
 
 <!-- Circuit Image -->
-![Station what it is located](assets/IMG_1.jpg)
+![Station what it is located](/assets/IMG_1.jpg)
 
 <!-- Circuit GIF -->
-![Circuit in action](assets/circuit.gif)
+![Circuit in action](/assets/Circuit.gif)
 
 ### Half-Adder
 
@@ -90,12 +90,12 @@ Carry LED lights only when both inputs are ON.
 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0        | <span style="color:green">ON</span> |
 
 <!-- Circuit Image -->
-![Station what it is located](assets/IMG_1706.jpg)
+![Station what it is located](/assets/IMG_1706.jpg)
 
 
 <!-- Circuit Video -->
-![Station what it is located](assets/IMG_1709.MOV)
+![Station what it is located](/assets/IMG_1709.MOV)
 
 <!-- Circuit GIF -->
-![Circuit in action](assets/circuit2.gif)
+![Circuit in action](/assets/circuit2.gif)
 
