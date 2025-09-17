@@ -49,11 +49,11 @@ Here’s the full table of values for all switches:
 
 
 <!-- Circuit Image -->
-<img src="/assets/IMG_1.jpg" alt="Station what it is located" style="border: 2px solid #444; border-radius: 6px;" />
+<img src="/assets/IMG_1.jpg" alt="Station what it is located" style="border: 8px solid #AAA; border-radius: 6px;" />
 _IRL Circuit Image_
 
 <!-- Circuit GIF -->
-<img src="/assets/Circuit.gif" alt="Circuit in action" style="border: 2px solid #444; border-radius: 6px;" />
+<img src="/assets/Circuit.gif" alt="Circuit in action" style="border: 8px solid #AAA; border-radius: 6px;" />
 _Gif representation of truth table_
 
 ### Half-Adder
@@ -94,15 +94,15 @@ Carry LED lights only when both inputs are ON.
 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> |
 
 <!-- Circuit Image -->
-<img src="/assets/IMG_1706.jpg" alt="Station what it is located" style="border: 2px solid #444; border-radius: 6px;" />
+<img src="/assets/IMG_1706.jpg" alt="Station what it is located" style="border: 8px solid #AAA; border-radius: 6px;" />
 _IRL Circuit Image_
 
 <!-- Circuit Video -->
-<video src="/assets/IMG_1709.MOV" controls style="border: 2px solid #444; border-radius: 6px;"></video>
+<video src="/assets/IMG_1709.MOV" controls style="border: 8px solid #AAA; border-radius: 6px; max-width: 600px; width: 100%; height: auto;"></video>
 _Video of Circuit IRL_
 
 <!-- Circuit GIF -->
-<img src="/assets/circuit2.gif" alt="Circuit in action" style="border: 2px solid #444; border-radius: 6px;" />
+<img src="/assets/circuit2.gif" alt="Circuit in action" style="border: 8px solid #AAA; border-radius: 6px;" />
 _Gif representation of truth table_
 
 ### 4-input XOR chain
@@ -153,9 +153,9 @@ So effectively, flicking any single switch will toggle the LED’s state.
 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
 
 <!-- Circuit Image -->
-<img src="/assets/IMG_1696.jpg" alt="Station what it is located" style="border: 2px solid #444; border-radius: 6px;" />
+<img src="/assets/IMG_1696.jpg" alt="Station what it is located" style="border: 8px solid #AAA; border-radius: 6px;" />
 _IRL Circuit Image_
 
 <!-- Circuit GIF -->
-<img src="/assets/circuit3.gif" alt="Circuit in action" style="border: 2px solid #444; border-radius: 6px;" />
+<img src="/assets/circuit3.gif" alt="Circuit in action" style="border: 8px solid #AAA; border-radius: 6px;" />
 _Gif representation of truth table_
