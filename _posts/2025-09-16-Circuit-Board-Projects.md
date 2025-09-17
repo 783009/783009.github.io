@@ -30,22 +30,23 @@ Here’s the full table of values for all switches:
 
 | A | B | C | D | AND (A·B) | OR (C+D) | Final Output F | LED |
 |---|---|---|---|-----------|----------|----------------|-----|
-| 0 | 0 | 0 | 0 | 0 | 0 | 0 | <span style="color:red">OFF</span> |
-| 0 | 0 | 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | 0 | <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | <span style="color:orange">1</span> | 0 | 0 | 0 | 0 | 0 | <span style="color:red">OFF</span> |
-| 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | 0 | 0 | 0 | 0 | 0 | 0 | <span style="color:red">OFF</span> |
-| <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+
 
 <!-- Circuit Image -->
 ![Station what it is located](/assets/IMG_1.jpg)
@@ -84,10 +85,10 @@ Carry LED lights only when both inputs are ON.
 #### 📊 Truth Table
 | A | B | Carry (C) | Sum (S) |
 |---|---|-----------|---------|
-| 0 | 0 | 0         | 0       |
-| 0 | <span style="color:orange">1</span> | 0         | <span style="color:orange">1</span> |
-| <span style="color:orange">1</span> | 0 | 0         | <span style="color:orange">1</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0       |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> |
 
 <!-- Circuit Image -->
 ![Station what it is located](/assets/IMG_1706.jpg)
@@ -129,21 +130,22 @@ So effectively, flicking any single switch will toggle the LED’s state.
 
 | A | B | C | D | Output (F) | LED |
 |---|---|---|---|------------|-----|
-| 0 | 0 | 0 | 0 | 0          | <span style="color:red">OFF</span> |
-| 0 | 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
-| 0 | <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
-| 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | 0 | <span style="color:red">OFF</span> |
-| 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | 0 | 0 | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
-| <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | 0 | 0 | <span style="color:red">OFF</span> |
-| <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | 0 | 0 | <span style="color:red">OFF</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
+
 
 
