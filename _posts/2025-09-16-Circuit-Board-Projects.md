@@ -153,7 +153,7 @@ So effectively, flicking any single switch will toggle the LED’s state.
 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
 
 <!-- Circuit Image -->
-![Station what it is located](/assets/IMG_1619.jpg)
+![Station what it is located](/assets/IMG_1696.jpg)
 _IRL Circuit Image_
 
 <!-- Circuit GIF -->
