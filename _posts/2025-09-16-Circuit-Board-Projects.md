@@ -50,9 +50,11 @@ Here’s the full table of values for all switches:
 
 <!-- Circuit Image -->
 ![Station what it is located](/assets/IMG_1.jpg)
+_IRL Circuit Image_
 
 <!-- Circuit GIF -->
 ![Circuit in action](/assets/Circuit.gif)
+_Gif representation of truth table_
 
 ### Half-Adder
 
@@ -93,13 +95,15 @@ Carry LED lights only when both inputs are ON.
 
 <!-- Circuit Image -->
 ![Station what it is located](/assets/IMG_1706.jpg)
-
+_IRL Circuit Image_
 
 <!-- Circuit Video -->
 ![Station what it is located](/assets/IMG_1709.MOV)
+_Video of Circuit IRL_
 
 <!-- Circuit GIF -->
 ![Circuit in action](/assets/circuit2.gif)
+_Gif representation of truth table_
 
 ### 4-input XOR chain
 #### 🔎 Summary
@@ -148,5 +152,10 @@ So effectively, flicking any single switch will toggle the LED’s state.
 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:orange">1</span> | <span style="color:#32CD32">ON</span> |
 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:#00BFFF">0</span> | <span style="color:red">OFF</span> |
 
+<!-- Circuit Image -->
+![Station what it is located](/assets/IMG_1619.jpg)
+_IRL Circuit Image_
 
-
+<!-- Circuit GIF -->
+![Circuit in action](/assets/circuit3.gif)
+_Gif representation of truth table_
