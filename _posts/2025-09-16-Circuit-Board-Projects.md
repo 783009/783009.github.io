@@ -82,12 +82,12 @@ Sum LED lights when exactly one input is ON.
 Carry LED lights only when both inputs are ON.
 
 #### 📊 Truth Table
-| A | B | Sum (S) | Carry (C) |
-|---|---|----------|-----------|
-| 0 | 0 | 0        | 0         |
-| 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> | 0         |
-| <span style="color:orange">1</span> | 0 | <span style="color:green">ON</span> | 0         |
-| <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0        | <span style="color:green">ON</span> |
+| A | B | Carry (C) | Sum (S) |
+|---|---|-----------|---------|
+| 0 | 0 | 0         | 0       |
+| 0 | <span style="color:orange">1</span> | 0         | <span style="color:orange">1</span> |
+| <span style="color:orange">1</span> | 0 | 0         | <span style="color:orange">1</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0       |
 
 <!-- Circuit Image -->
 ![Station what it is located](/assets/IMG_1706.jpg)
@@ -98,4 +98,52 @@ Carry LED lights only when both inputs are ON.
 
 <!-- Circuit GIF -->
 ![Circuit in action](/assets/circuit2.gif)
+
+### 4-input XOR chain
+#### 🔎 Summary
+
+Your circuit has 4 switches: A, B, C, and D.
+
+Step 1: Switches A and B go into an XOR gate → output = A ⊕ B.
+
+Step 2: That output goes into another XOR gate with input C → (A ⊕ B) ⊕ C.
+
+Step 3: That output goes into a final XOR gate with input D → (A ⊕ B ⊕ C ⊕ D).
+
+Step 4: The result drives the light bulb (LED).
+
+✨ Key property: The LED shows the parity of the number of ON switches.
+
+If an odd number of switches are ON → LED is ON.
+
+If an even number of switches are ON → LED is OFF.
+
+The final logic expression is:
+
+F=A⊕B⊕C⊕D
+
+So effectively, flicking any single switch will toggle the LED’s state.
+
+
+#### 📊 Truth Table
+
+| A | B | C | D | Output (F) | LED |
+|---|---|---|---|------------|-----|
+| 0 | 0 | 0 | 0 | 0          | <span style="color:red">OFF</span> |
+| 0 | 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| 0 | 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| 0 | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
+| 0 | <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| 0 | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
+| 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | 0 | <span style="color:red">OFF</span> |
+| 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| <span style="color:orange">1</span> | 0 | 0 | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| <span style="color:orange">1</span> | 0 | 0 | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
+| <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | 0 | 0 | <span style="color:red">OFF</span> |
+| <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | 0 | 0 | <span style="color:red">OFF</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:orange">1</span> | <span style="color:green">ON</span> |
+| <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | <span style="color:orange">1</span> | 0 | <span style="color:red">OFF</span> |
+
 
