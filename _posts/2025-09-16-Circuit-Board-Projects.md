@@ -83,6 +83,7 @@ Sum LED lights when exactly one input is ON.
 Carry LED lights only when both inputs are ON.
 
 #### 📊 Truth Table
+
 | A | B | Carry (C) | Sum (S) |
 |---|---|-----------|---------|
 | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> | <span style="color:#00BFFF">0</span> |
