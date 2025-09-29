@@ -32,7 +32,7 @@ As you can see, despite having similar statistical properties, each dataset has 
 
 ### The code
 
-```Python
+```python
 import pandas as pd
 import matplotlib.pyplot as plt
 
