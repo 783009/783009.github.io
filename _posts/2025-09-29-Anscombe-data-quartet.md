@@ -30,7 +30,7 @@ This document shows the visualizations of Anscombe's quartet datasets.
 
 As you can see, despite having similar statistical properties, each dataset has very different distributions.
 
-this is the code for it
+### The code
 
 ```Python
 import pandas as pd
