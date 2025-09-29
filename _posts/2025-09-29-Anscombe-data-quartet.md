@@ -1,3 +1,12 @@
+---
+title: "Anscombe's Quartet"
+date: 2025-09-29
+categories: [Projects, Data Analysis]
+tags: [anscombe, statistics, data-visualization, analysis]
+---
+
+
+
 # Anscombe's Quartet Visualization
 
 This notebook visualizes the famous **Anscombe's Quartet**, which contains four datasets with nearly identical statistical properties (mean, variance, correlation), but very different distributions when graphed.
@@ -17,7 +26,7 @@ This highlights how datasets with the **same summary statistics** can have **vas
 
 This document shows the visualizations of Anscombe's quartet datasets.
 
-![Anscombe's Quartet](data.png)
+![Anscombe's Quartet](/assets/data.png)
 
 As you can see, despite having similar statistical properties, each dataset has very different distributions.
 
