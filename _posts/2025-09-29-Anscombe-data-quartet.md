@@ -581,8 +581,8 @@ fig.write_html("output/anscombe_plotly.html")
 
 
     
+<iframe src="/assets/eda/anscombe_plotly.html" width="100%" height="600" frameborder="0"></iframe>
 
-[View the interactive Plotly graph here](/assets/eda/anscombe_plotly.html)
 
 
 
