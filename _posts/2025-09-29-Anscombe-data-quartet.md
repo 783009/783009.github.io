@@ -10,7 +10,7 @@ tags: [anscombe, statistics, data-visualization, analysis]
 **Date:** 2025-10-07  
 
 You can veiw the pdf file [here](https://783009.github.io/assets/eda/Anscombe's%20Data%20Quartet%20Exploratory%20Data%20Analysis.pdf)
-[View the PDF](/assets/eda/Anscombe's Data Quartet Exploratory Data Analysis.pdf)
+<iframe src="/assets/eda/Anscombe's Data Quartet Exploratory Data Analysis.pdf" width="100%" height="600px"></iframe>
 
 
 *This notebook performs a full exploratory data analysis (EDA) on Anscombe's Quartet, highlighting the importance of visual inspection alongside summary statistics.*
