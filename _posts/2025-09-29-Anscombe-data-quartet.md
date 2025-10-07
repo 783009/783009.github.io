@@ -581,8 +581,9 @@ fig.write_html("output/anscombe_plotly.html")
 
 
     
-fig.write_html("/assets/eda/anscombe_plotly.html")
-    
+
+[View the interactive Plotly graph here](/assets/eda/anscombe_plotly.html)
+
 
 
 ## Conclusion & Future Work
