@@ -6,4 +6,4 @@ tags: [wiggly, woggly, fun]
 ---
 # WIGGLY WOGGLY!!!
 
-<iframe src="http://www.staggeringbeauty.com/"></iframe>
+<iframe src="http://www.staggeringbeauty.com/" ></iframe>
