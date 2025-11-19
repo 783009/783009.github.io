@@ -158,7 +158,7 @@ Luckly for us, we do not need to implement linear regression, since scikit learn
 
 The coefficients, the residual sum of squares and the variance score are also calculated.
 
-Note: from reading the [documentation](http://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares) this method computes the least squares solution using a singular value decomposition of X. If X is a matrix of size (n, p) this method has a cost of O($n p^2$), assuming that $n \geq p$.  A more efficient alternative (for large number of features) is to use Stochastic Gradient Descent or another method outlined in the [linear models documentation](http://scikit-learn.org/stable/modules/linear_model.html) 
+Note: from reading the [documentation](p://scikit-learn.org/stable/modules/linear_model.html#ordinary-least-squares) this method computes the least squares solution using a singular value decomposition of X. If X is a matrix of size (n, p) this method has a cost of O($n p^2$), assuming that $n \geq p$.  A more efficient alternative (for large number of features) is to use Stochastic Gradient Descent or another method outlined in the [linear models documentation](https://scikit-learn.org/stable/modules/linear_model.html) 
 
 
 If you do not know what BigO is, please read the background information from the notes (or take a algorithms course).
@@ -354,9 +354,9 @@ plt.show()
     
 
 
-As seen the the histogram, the residual error should be (somewhat) normally distributed and centered around zero.  This [post](http://stattrek.com/regression/linear-regression.aspx#ReqressionPrerequisites) explains why.
+As seen the the histogram, the residual error should be (somewhat) normally distributed and centered around zero.  This [post](https://stattrek.com/regression/linear-regression.aspx#ReqressionPrerequisites) explains why.
 
-If the residuals are not randomly distributed around zero, consider applying a transform to the data or applying non-linear regression.  In addition to looking at the residuals, one could use the statsmodels library to take a [statistical approach to ordinary least squares regression.](http://www.datarobot.com/blog/ordinary-least-squares-in-python/)
+If the residuals are not randomly distributed around zero, consider applying a transform to the data or applying non-linear regression.  In addition to looking at the residuals, one could use the statsmodels library to take a [statistical approach to ordinary least squares regression.](https://www.datarobot.com/blog/ordinary-least-squares-in-python/)
 
 
 
@@ -452,10 +452,10 @@ What are the 95% confidence intervals?
 Helpful links:
 - R-squared (or [coefficeient of determination](https://en.wikipedia.org/wiki/Coefficient_of_determination)
 
-- [95.0% Conf. Interval](http://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP)
+- [95.0% Conf. Interval](https://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP)
 
 - 
-http://onlinestatbook.com or http://stattrek.com/tutorials/ap-statistics-tutorial.aspx are great free resources which outlines all the necessary background to be a great statstician and data scientist.  Both http://onlinestatbook.com/2/regression/inferential.html, and  http://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP provide the specifics of confidence intervals for linear regression
+https://onlinestatbook.com or https://stattrek.com/tutorials/ap-statistics-tutorial.aspx are great free resources which outlines all the necessary background to be a great statstician and data scientist.  Both http://onlinestatbook.com/2/regression/inferential.html, and  http://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP provide the specifics of confidence intervals for linear regression
 
 We can now plot the fitted line to the data and observe the same results as the previous two methods for linear regression.
 
@@ -487,7 +487,7 @@ plt.plot(X_prime[:, 1], y_hat, 'r')
     
 
 
-If we want to be even more fancier, we can use the [seaborn library](http://stanford.edu/~mwaskom/software/seaborn/examples/regression_marginals.html) to plot Linear regression with [marginal distributions](https://en.wikipedia.org/wiki/Marginal_distribution) which also states the pearsonr and p value on the plot.  Using the statsmodels approach is more rigourous, but sns provides quick visualizations.
+If we want to be even more fancier, we can use the [seaborn library](https://stanford.edu/~mwaskom/software/seaborn/examples/regression_marginals.html) to plot Linear regression with [marginal distributions](https://en.wikipedia.org/wiki/Marginal_distribution) which also states the pearsonr and p value on the plot.  Using the statsmodels approach is more rigourous, but sns provides quick visualizations.
 
 
 ```python
@@ -556,7 +556,7 @@ plt.show()
 
 ## Total Least Squares Regression
 
-Finally, a line of best fit can be made using [Total least squares regression](https://en.wikipedia.org/wiki/Total_least_squares), a least squares data modeling technique in which observational errors on both dependent and independent variables are taken into account.  This is done by minizing the errors perpendicular to the line, rather than just vertically.  It is more complicated to implement than standard linear regression, but there is Fortran code called ODRPACK that has this efficiently implemented and wrapped scipy.odr Python module (which can be used out of the box).  The details of odr are in the [Scipy documentation](http://docs.scipy.org/doc/scipy/reference/odr.html) and in even more detail in the [ODRPACK guide](http://docs.scipy.org/doc/external/odrpack_guide.pdf).
+Finally, a line of best fit can be made using [Total least squares regression](https://en.wikipedia.org/wiki/Total_least_squares), a least squares data modeling technique in which observational errors on both dependent and independent variables are taken into account.  This is done by minizing the errors perpendicular to the line, rather than just vertically.  It is more complicated to implement than standard linear regression, but there is Fortran code called ODRPACK that has this efficiently implemented and wrapped scipy.odr Python module (which can be used out of the box).  The details of odr are in the [Scipy documentation](https://docs.scipy.org/doc/scipy/reference/odr.html) and in even more detail in the [ODRPACK guide](https://docs.scipy.org/doc/external/odrpack_guide.pdf).
 
 In the code below (inspired from [here](http://blog.rtwilson.com/orthogonal-distance-regression-in-python/) uses an inital guess for the parameters, and makes a fit using total least squares regression.
 
@@ -645,17 +645,17 @@ plt.legend(bbox_to_anchor=(0., 1.02, 1., .102), loc=3,
 
 ## Optional Further reading:
 
-Chapter 2 (Linear regression) of [Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/)
+Chapter 2 (Linear regression) of [Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/)
 
-Appendix D Regression of  [Introduction to Data Mining ](http://www-users.cs.umn.edu/~kumar/dmbook/index.php)
+Appendix D Regression of  [Introduction to Data Mining ](https://www-users.cs.umn.edu/~kumar/dmbook/index.php)
 
-Linear models of [Data Mining](http://www.cs.waikato.ac.nz/ml/weka/book.html)
+Linear models of [Data Mining](https://www.cs.waikato.ac.nz/ml/weka/book.html)
 
 Video (for using WEKA): [Linear regression](https://www.youtube.com/watch?v=6tDnNyNZDF0)
 
 ### Scikit Learn documentation:
 
-[Linear models](http://scikit-learn.org/stable/modules/linear_model.html)
+[Linear models](https://scikit-learn.org/stable/modules/linear_model.html)
 
 
 ## Homework
