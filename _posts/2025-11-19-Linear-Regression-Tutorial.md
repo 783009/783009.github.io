@@ -10,7 +10,7 @@ This is the tutorial made my Mr.Andrade with the fixed code
 
 Author: Andrew Andrade ([andrew@andrewandrade.ca](mailto:andrew@andrewandrade.ca))
 
-This is part one of a series of tutorials related to [regression](http://datascienceguide.github.io/regression/) used in data science. 
+This is part one of a series of tutorials related to [regression](https://datascienceguide.github.io/regression/) used in data science. 
 
 Recommended reading: https://www.statlearning.com/ (Chapter 2)
 
