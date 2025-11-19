@@ -18,7 +18,7 @@ In this blog post, I walk through the **Linear Regression Tutorial** and explain
 
 Additionally, here is the link to my **GitHub repository** where the `linear-regression-tutorial.ipynb` is running with all cells executed successfully:
 
-➡️ GitHub Link: **[https://github.com/783009/783009.github.io/blob/main/assets/linreg/lin-reg-tut.ipynb]**
+➡️ GitHub Link: [**here**](https://github.com/783009/783009.github.io/blob/main/assets/linreg/lin-reg-tut.ipynb)
 
 ---
 
