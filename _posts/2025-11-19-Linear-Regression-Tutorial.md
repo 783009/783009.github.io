@@ -6,6 +6,7 @@ tags: [Blog, Data, Analysis]
 ---
 This is the tutorial made my Mr.Andrade with the FIXED CODE
 Link to  the Jupyter notebook file(.ipynb) [**here**](https://github.com/783009/783009.github.io/blob/main/assets/linreg/lin-reg-tut.ipynb)
+
 Link to PDF document vesion [**here**](https://783009.github.io/assets/linreg/linear-regression-tutorial.pdf)
 # Linear Regression Tutorial
 
@@ -14,10 +15,11 @@ Author: Andrew Andrade ([andrew@andrewandrade.ca](mailto:andrew@andrewandrade.ca
 
 This is part one of a series of tutorials related to [regression](https://datascienceguide.github.io/regression/) used in data science. 
 
-Recommended reading: https://www.statlearning.com/ (Chapter 2)
+Recommended reading: (https://www.statlearning.com/) (Chapter 2)
 
-https://hastie.su.domains/ISLR2/Slides/Ch3_Linear_Regression.pdf
-https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch03-linreg-lab.ipynb
+(https://hastie.su.domains/ISLR2/Slides/Ch3_Linear_Regression.pdf)
+
+(https://github.com/intro-stat-learning/ISLP_labs/blob/stable/Ch03-linreg-lab.ipynb)
 
 In this tutorial, We will first learn to fit a simple line using Least Squares Linear Regression (LSLR), plot residuals, residual distribution, statistics approach to linear regression, horizontal residuals and end with total least squares linear regression.
 
@@ -457,7 +459,7 @@ Helpful links:
 - [95.0% Conf. Interval](https://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP)
 
 - 
-https://onlinestatbook.com or https://stattrek.com/tutorials/ap-statistics-tutorial.aspx are great free resources which outlines all the necessary background to be a great statstician and data scientist.  Both https://onlinestatbook.com/2/regression/inferential.html, and  https://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP provide the specifics of confidence intervals for linear regression
+(https://onlinestatbook.com) or (https://stattrek.com/tutorials/ap-statistics-tutorial.aspx) are great free resources which outlines all the necessary background to be a great statstician and data scientist.  Both (https://onlinestatbook.com/2/regression/inferential.html), and  (https://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP) provide the specifics of confidence intervals for linear regression
 
 We can now plot the fitted line to the data and observe the same results as the previous two methods for linear regression.
 
