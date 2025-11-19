@@ -1,6 +1,6 @@
 ---
 title: "Linear Regression"
-date: 2025-09-29
+date: 2025-11-19
 categories: [Blog, Data Analysis]
 tags: [Blog, Data, Analysis]
 ---
