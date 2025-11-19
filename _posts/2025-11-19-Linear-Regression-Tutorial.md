@@ -1,10 +1,12 @@
 ---
-title: "Linear Regression"
+title: "Linear Regression Tutorial"
 date: 2025-11-19
 categories: [Blog, Data Analysis]
 tags: [Blog, Data, Analysis]
 ---
-This is the tutorial made my Mr.Andrade with the fixed code
+This is the tutorial made my Mr.Andrade with the FIXED CODE
+Link to  the Jupyter notebook file(.ipynb) [**here**](https://github.com/783009/783009.github.io/blob/main/assets/linreg/lin-reg-tut.ipynb)
+Link to PDF document vesion [**here**](https://783009.github.io/assets/linreg/linear-regression-tutorial.pdf)
 # Linear Regression Tutorial
 
 
