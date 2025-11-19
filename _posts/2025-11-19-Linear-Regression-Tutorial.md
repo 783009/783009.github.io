@@ -455,7 +455,7 @@ Helpful links:
 - [95.0% Conf. Interval](https://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP)
 
 - 
-https://onlinestatbook.com or https://stattrek.com/tutorials/ap-statistics-tutorial.aspx are great free resources which outlines all the necessary background to be a great statstician and data scientist.  Both http://onlinestatbook.com/2/regression/inferential.html, and  http://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP provide the specifics of confidence intervals for linear regression
+https://onlinestatbook.com or https://stattrek.com/tutorials/ap-statistics-tutorial.aspx are great free resources which outlines all the necessary background to be a great statstician and data scientist.  Both https://onlinestatbook.com/2/regression/inferential.html, and  https://stattrek.com/regression/slope-confidence-interval.aspx?Tutorial=AP provide the specifics of confidence intervals for linear regression
 
 We can now plot the fitted line to the data and observe the same results as the previous two methods for linear regression.
 
@@ -558,7 +558,7 @@ plt.show()
 
 Finally, a line of best fit can be made using [Total least squares regression](https://en.wikipedia.org/wiki/Total_least_squares), a least squares data modeling technique in which observational errors on both dependent and independent variables are taken into account.  This is done by minizing the errors perpendicular to the line, rather than just vertically.  It is more complicated to implement than standard linear regression, but there is Fortran code called ODRPACK that has this efficiently implemented and wrapped scipy.odr Python module (which can be used out of the box).  The details of odr are in the [Scipy documentation](https://docs.scipy.org/doc/scipy/reference/odr.html) and in even more detail in the [ODRPACK guide](https://docs.scipy.org/doc/external/odrpack_guide.pdf).
 
-In the code below (inspired from [here](http://blog.rtwilson.com/orthogonal-distance-regression-in-python/) uses an inital guess for the parameters, and makes a fit using total least squares regression.
+In the code below (inspired from [here](https://blog.rtwilson.com/orthogonal-distance-regression-in-python/) uses an inital guess for the parameters, and makes a fit using total least squares regression.
 
 
 
@@ -660,6 +660,6 @@ Video (for using WEKA): [Linear regression](https://www.youtube.com/watch?v=6tDn
 
 ## Homework
 
-Now that you have seen an examples of regression using a simple linear models, see if you can predict the price of a house given the size of property from the log_regression_example.csv (found in [../datasets/log_regression_example.csv](https://github.com/datascienceguide/datascienceguide.github.io/raw/master/datasets/log_regression_example.csv)  If you are unable to fit a simple linear model, try transforming variables to achieve linearity outlined in class or  [here](http://stattrek.com/regression/linear-transformation.aspx?Tutorial=AP)
+Now that you have seen an examples of regression using a simple linear models, see if you can predict the price of a house given the size of property from the log_regression_example.csv (found in [../datasets/log_regression_example.csv](https://github.com/datascienceguide/datascienceguide.github.io/raw/master/datasets/log_regression_example.csv)  If you are unable to fit a simple linear model, try transforming variables to achieve linearity outlined in class or  [here](https://stattrek.com/regression/linear-transformation.aspx?Tutorial=AP)
 
 Hint: look at the log and power transform
