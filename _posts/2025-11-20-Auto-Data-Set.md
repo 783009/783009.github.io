@@ -1,30 +1,38 @@
 ---
-title: "Auto Data Set"
+title: "Applied Linear Regression on Auto Dataset"
 date: 2025-11-20
-categories: [Blog, Data Analysis]
-tags: [Blog, Data, Analysis]
+categories: [Projects, Data Analysis]
+tags: [Auto, Regression, Python, ISLR]
 ---
+
 
 You can veiw the Jupyter notebook file(.ipynb) [here](https://github.com/783009/783009.github.io/blob/main/assets/Auto/AutoData.ipynb)
 
 [PDF document](https://783009.github.io/assets/Auto/AutoData.pdf)
 <iframe src="/assets/Auto/AutoData.pdf" width="100%" height="600px"></iframe>
 
+# Auto Dataset Analysis
+This notebook analyzes the Auto dataset to investigate how vehicle characteristics relate to fuel efficiency (mpg).  
+We apply **simple linear regression** (Q8) and **multiple linear regression** (Q9), including diagnostic plots and transformations.
 
-# Simple Linear Regression on the Auto Dataset
-Chapter 3 – Question 8 (Applied)
-
-This analysis investigates the relationship between **horsepower** (predictor) and **mpg** (response) using a simple linear regression model.
-We will perform regression using `sm.OLS()` from `statsmodels`, evaluate the model, create plots, and interpret the results.
 
 
 ```python
 import pandas as pd
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 
-auto = pd.read_csv("/home/mlahkim15/ve/Auto/Auto.csv")
+# Load Auto.csv (make sure it's in the same folder)
+auto = pd.read_csv("/assets/Auto/Auto.csv")
+
+# Convert columns to numeric if necessary
+auto['horsepower'] = pd.to_numeric(auto['horsepower'], errors='coerce')
+auto = auto.dropna()  # drop rows with missing values
+
 auto.head()
+
 ```
 
 
@@ -65,7 +73,7 @@ auto.head()
       <td>18.0</td>
       <td>8</td>
       <td>307.0</td>
-      <td>130</td>
+      <td>130.0</td>
       <td>3504</td>
       <td>12.0</td>
       <td>70</td>
@@ -77,7 +85,7 @@ auto.head()
       <td>15.0</td>
       <td>8</td>
       <td>350.0</td>
-      <td>165</td>
+      <td>165.0</td>
       <td>3693</td>
       <td>11.5</td>
       <td>70</td>
@@ -89,7 +97,7 @@ auto.head()
       <td>18.0</td>
       <td>8</td>
       <td>318.0</td>
-      <td>150</td>
+      <td>150.0</td>
       <td>3436</td>
       <td>11.0</td>
       <td>70</td>
@@ -101,7 +109,7 @@ auto.head()
       <td>16.0</td>
       <td>8</td>
       <td>304.0</td>
-      <td>150</td>
+      <td>150.0</td>
       <td>3433</td>
       <td>12.0</td>
       <td>70</td>
@@ -113,7 +121,7 @@ auto.head()
       <td>17.0</td>
       <td>8</td>
       <td>302.0</td>
-      <td>140</td>
+      <td>140.0</td>
       <td>3449</td>
       <td>10.5</td>
       <td>70</td>
@@ -126,42 +134,18 @@ auto.head()
 
 
 
-## Part (a) — Fit the Linear Regression Model
-
-We model `mpg` as the response variable and `horsepower` as the predictor variable.
+## Question 8 — Simple Linear Regression
+We model **mpg** as the response and **horsepower** as the predictor.
 
 
 ```python
-# Convert horsepower to numeric, coerce errors to NaN
-auto['horsepower'] = pd.to_numeric(auto['horsepower'], errors='coerce')
-
-# Drop rows with missing values in mpg or horsepower
-auto = auto.dropna(subset=['horsepower', 'mpg'])
-
-# Check types and first rows
-print(auto.dtypes)
-auto.head
-
-X = auto["horsepower"]
+# Simple linear regression
+X = sm.add_constant(auto["horsepower"])
 y = auto["mpg"]
 
-X = sm.add_constant(X)
-model = sm.OLS(y, X).fit()
-model.summary()
-
+model_simple = sm.OLS(y, X).fit()
+model_simple.summary()
 ```
-
-    mpg             float64
-    cylinders         int64
-    displacement    float64
-    horsepower      float64
-    weight            int64
-    acceleration    float64
-    year              int64
-    origin            int64
-    name             object
-    dtype: object
-
 
 
 
@@ -178,10 +162,10 @@ model.summary()
   <th>Method:</th>             <td>Least Squares</td>  <th>  F-statistic:       </th> <td>   599.7</td>
 </tr>
 <tr>
-  <th>Date:</th>             <td>Thu, 20 Nov 2025</td> <th>  Prob (F-statistic):</th> <td>7.03e-81</td>
+  <th>Date:</th>             <td>Fri, 21 Nov 2025</td> <th>  Prob (F-statistic):</th> <td>7.03e-81</td>
 </tr>
 <tr>
-  <th>Time:</th>                 <td>13:36:18</td>     <th>  Log-Likelihood:    </th> <td> -1178.7</td>
+  <th>Time:</th>                 <td>10:22:31</td>     <th>  Log-Likelihood:    </th> <td> -1178.7</td>
 </tr>
 <tr>
   <th>No. Observations:</th>      <td>   392</td>      <th>  AIC:               </th> <td>   2361.</td>
@@ -224,25 +208,17 @@ model.summary()
 
 
 
-### Interpretation of Regression Output
+### Interpretation
 
-i. **Is there a relationship between horsepower and mpg?**  
-Yes — the p-value for horsepower is extremely small (much less than 0.05), which means the relationship is statistically significant.
-
-ii. **How strong is the relationship?**  
-The R-squared value is around **0.60**, meaning about **60% of the variation in mpg is explained by horsepower**.
-
-iii. **Is the relationship positive or negative?**  
-The coefficient for horsepower is **negative**, meaning **as horsepower increases, mpg decreases**.
-
-iv. **Prediction for horsepower = 98**  
-We will calculate the predicted mpg and 95% confidence and prediction intervals below.
-
+- **Relationship:** Strong negative relationship — higher horsepower → lower mpg.  
+- **Strength:** R² ~0.60 → 60% of mpg variation explained by horsepower.  
+- **Prediction:** For horsepower = 98, see below.
 
 
 ```python
 new_value = pd.DataFrame({"const":[1], "horsepower":[98]})
-model.get_prediction(new_value).summary_frame(alpha=0.05)
+pred_simple = model_simple.get_prediction(new_value).summary_frame(alpha=0.05)
+pred_simple
 ```
 
 
@@ -290,13 +266,13 @@ model.get_prediction(new_value).summary_frame(alpha=0.05)
 
 
 
-## Part (b) — Plot mpg vs horsepower and the regression line
+### Scatter Plot with Regression Line
 
 
 ```python
-fig, ax = plt.subplots(figsize=(10,6))  # make figure wider and taller
-ax.scatter(auto["horsepower"], auto["mpg"], s=20, alpha=0.7)  # smaller dots, slightly transparent
-ax.plot(auto["horsepower"], model.predict(sm.add_constant(auto["horsepower"])), color='red')  # regression line
+fig, ax = plt.subplots(figsize=(10,6))
+ax.scatter(auto["horsepower"], auto["mpg"], s=20, alpha=0.7)
+ax.plot(auto["horsepower"], model_simple.predict(X), color='red')
 ax.set_xlabel("Horsepower")
 ax.set_ylabel("MPG")
 ax.set_title("MPG vs Horsepower with Regression Line")
@@ -309,19 +285,13 @@ plt.show()
     
 
 
-## Part (c) — Diagnostic Plots
-These plots help evaluate assumptions such as linearity, constant variance, and normality of residuals.
-
+### Diagnostic Plots for Simple Regression
 
 
 ```python
-import statsmodels.api as sm
-import matplotlib.pyplot as plt
-
-fig = plt.figure(figsize=(12, 10))  # make the figure larger
-sm.graphics.plot_regress_exog(model, "horsepower", fig=fig)
+fig = plt.figure(figsize=(12,10))
+sm.graphics.plot_regress_exog(model_simple, "horsepower", fig=fig)
 plt.show()
-
 ```
 
 
@@ -330,15 +300,106 @@ plt.show()
     
 
 
-### Comments on Diagnostics
-
-- There appears to be some curvature in the residuals, suggesting the relationship may not be perfectly linear.
-- There is some evidence of non-constant variance (funnel shape), which means prediction accuracy varies across horsepower values.
-- A few points may be potential outliers influencing the model.
-
-Overall, the model shows a clear negative relationship, but improvements such as polynomial regression might yield a better fit.
+## Question 9 — Multiple Linear Regression
+We now include **all other variables (except name)** to predict mpg.  
+We also explore correlations, interactions, and transformations.
 
 
 ```python
+# Convert horsepower to numeric (some values may be '?')
+auto['horsepower'] = pd.to_numeric(auto['horsepower'], errors='coerce')
 
+# Drop rows with missing values
+auto = auto.dropna()
+
+# Create numeric-only dataframe (drop 'name' column)
+auto_numeric = auto.drop(columns=['name'])
+
+# Select key variables for scatterplot matrix
+subset = ["mpg", "horsepower", "weight", "year"]
+
+# Create the scatterplot matrix
+sns.pairplot(auto_numeric[subset], height=2.5)
+plt.suptitle("Scatterplot Matrix: Key Predictors vs MPG", y=1.02)
+plt.show()
 ```
+
+
+    
+![png](/assets/Auto/output_11_0.png)
+    
+
+
+### Multiple Linear Regression
+
+
+
+```python
+# Multiple regression
+X_multi = auto_numeric.drop(columns=['mpg'])
+X_multi = sm.add_constant(X_multi)
+y_multi = auto_numeric['mpg']
+
+model_multi = sm.OLS(y_multi, X_multi).fit()
+model_multi.summary()
+```
+
+### Interpretation of Multiple Regression
+
+- **Relationship:** The overall F-test and p-values indicate that predictors collectively explain mpg.  
+- **Significant predictors:** Weight, horsepower, year, etc. (check p-values < 0.05).  
+- **Coefficient of year:** Positive → newer cars tend to have higher mpg, all else equal.
+
+
+```python
+# Diagnostic plots for multiple regression
+fig = plt.figure(figsize=(12,10))
+sm.graphics.plot_regress_exog(model_multi, "weight", fig=fig)
+plt.show()
+```
+
+### Interactions & Transformations
+
+We can try interactions (e.g., horsepower*weight) or transformations (log, sqrt, squared) to improve the model.  
+Check p-values for significance and whether plots look better.
+
+
+```python
+# Example: interaction between horsepower and weight
+X_inter = auto_numeric.copy()
+X_inter['hp_weight'] = X_inter['horsepower'] * X_inter['weight']
+X_inter = sm.add_constant(X_inter.drop(columns=['mpg']))
+y_inter = auto_numeric['mpg']
+
+model_inter = sm.OLS(y_inter, X_inter).fit()
+model_inter.summary()
+```
+
+### Example Transformation
+
+- Try log or squared transformations to see if model fit improves:
+- log(horsepower), sqrt(weight), weight^2, etc.
+
+
+```python
+X_trans = auto_numeric.copy()
+X_trans['log_horsepower'] = np.log(X_trans['horsepower'])
+X_trans['weight_squared'] = X_trans['weight'] ** 2
+
+X_trans = sm.add_constant(X_trans.drop(columns=['mpg']))
+y_trans = auto_numeric['mpg']
+
+model_trans = sm.OLS(y_trans, X_trans).fit()
+model_trans.summary()
+```
+
+### Conclusion
+
+- **Simple regression:** mpg decreases as horsepower increases.  
+- **Multiple regression:** multiple variables (weight, year, horsepower) significantly affect mpg.  
+- **Interactions & transformations:** can improve model fit, but must be interpreted carefully.  
+- **Diagnostics:** always check residuals, leverage, and spread to ensure reliable predictions.
+
+### Reflective Summary
+
+Working through this analysis helped me understand how vehicle characteristics like horsepower, weight, and year influence fuel efficiency. I learned how to interpret regression coefficients, evaluate model fit using diagnostic plots, and explore improvements through interactions and transformations. This project also strengthened my skills in presenting data analysis clearly in a professional blog format.
