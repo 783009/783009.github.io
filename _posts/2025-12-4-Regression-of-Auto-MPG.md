@@ -3,6 +3,7 @@ title: "Regression of Auto MPG"
 date: 2025-12-4
 categories: [Projects, Data Analysis]
 tags: [Auto, Regression, Python, ISLR]
+math: true
 ---
 
 
