@@ -1,0 +1,398 @@
+ID,mpg_01
+70_chevrolet chevelle malibu_alpha_3505,0
+71_buick skylark 320_bravo_3697,0
+70_plymouth satellite_charlie_3421,0
+68_amc rebel sst_delta_3418,0
+70_ford torino_echo_3444,0
+69_ford galaxie 500_foxtrot_4335,0
+70_chevrolet impala_golf_4344,0
+70_plymouth fury iii_hotel_4302,0
+70_pontiac catalina_india_4438,0
+69_amc ambassador dpl_juliet_3839,0
+69_dodge challenger se_kilo_3574,0
+72_plymouth 'cuda 340_lima_3602,0
+71_chevrolet monte carlo_mike_3773,0
+68_buick estate wagon (sw)_november_3087,0
+70_toyota corona mark ii_oscar_2380,1
+70_plymouth duster_papa_2844,0
+70_amc hornet_quebec_2787,0
+70_ford maverick_romeo_2600,0
+71_datsun pl510_sierra_2129,1
+71_volkswagen 1131 deluxe sedan_tango_1840,1
+70_peugeot 504_uniform_2682,1
+70_audi 100 ls_victor_2415,1
+70_saab 99e_whiskey_2361,1
+70_bmw 2002_xray_2242,1
+70_amc gremlin_yankee_2651,0
+70_ford f250_zulu_4630,0
+70_chevy c20_alpha_4374,0
+69_dodge d200_bravo_4379,0
+70_hi 1200d_charlie_4733,0
+70_datsun pl510_delta_2120,1
+71_chevrolet vega 2300_echo_2279,1
+71_toyota corona_foxtrot_2241,1
+70_ford pinto_golf_2048,1
+70_amc gremlin_hotel_2648,0
+71_plymouth satellite custom_india_3429,0
+71_chevrolet chevelle malibu_juliet_3317,0
+70_ford torino 500_kilo_3292,0
+73_amc matador_lima_3276,0
+71_chevrolet impala_mike_4215,0
+73_pontiac catalina brougham_november_4471,0
+71_ford galaxie 500_oscar_4158,0
+71_plymouth fury iii_papa_4090,0
+71_dodge monaco (sw)_quebec_4970,0
+71_ford country squire (sw)_romeo_4731,0
+70_pontiac safari (sw)_sierra_5128,0
+71_amc hornet sportabout (sw)_tango_2970,0
+71_chevrolet vega (sw)_uniform_2419,0
+71_pontiac firebird_victor_3267,0
+71_ford mustang_whiskey_3150,0
+71_mercury capri 2000_xray_2228,1
+71_opel 1900_yankee_2135,1
+71_peugeot 304_zulu_2068,1
+71_fiat 124b_alpha_2079,1
+71_toyota corolla 1200_bravo_1769,1
+71_datsun 1200_charlie_1614,1
+71_volkswagen model 111_delta_1842,1
+72_plymouth cricket_echo_1968,1
+72_toyota corona hardtop_foxtrot_2271,1
+72_dodge colt hardtop_golf_2123,1
+72_volkswagen type 3_hotel_2261,1
+72_chevrolet vega_india_2417,0
+72_ford pinto runabout_juliet_2215,0
+72_chevrolet impala_kilo_4278,0
+73_pontiac catalina_lima_4375,0
+72_plymouth fury iii_mike_4132,0
+72_ford galaxie 500_november_4117,0
+72_amc ambassador sst_oscar_3677,0
+72_mercury marquis_papa_4632,0
+72_buick lesabre custom_quebec_4515,0
+71_oldsmobile delta 88 royale_romeo_4442,0
+72_chrysler newport royal_sierra_4415,0
+71_mazda rx2 coupe_tango_2344,0
+72_amc matador (sw)_uniform_3904,0
+72_chevrolet chevelle concours (sw)_victor_4094,0
+72_ford gran torino (sw)_whiskey_4293,0
+72_plymouth satellite custom (sw)_xray_4075,0
+72_volvo 145e (sw)_yankee_2934,0
+72_volkswagen 411 (sw)_zulu_2519,0
+74_peugeot 504 (sw)_alpha_2970,0
+72_renault 12 (sw)_bravo_2202,1
+72_ford pinto (sw)_charlie_2405,0
+72_datsun 510 (sw)_delta_2273,1
+72_toyouta corona mark ii (sw)_echo_2511,1
+72_dodge colt (sw)_foxtrot_2155,1
+72_toyota corolla 1600 (sw)_golf_2089,1
+73_buick century 350_hotel_4090,0
+73_amc matador_india_3658,0
+72_chevrolet malibu_juliet_3995,0
+72_ford gran torino_kilo_4040,0
+73_dodge coronet custom_lima_3781,0
+73_mercury marquis brougham_mike_4943,0
+75_chevrolet caprice classic_november_4461,0
+72_ford ltd_oscar_4373,0
+73_plymouth fury gran sedan_papa_4248,0
+73_chrysler new yorker brougham_quebec_4720,0
+72_buick electra 225 custom_romeo_4947,0
+75_amc ambassador brougham_sierra_3811,0
+73_plymouth valiant_tango_3108,0
+73_chevrolet nova custom_uniform_3276,0
+73_amc hornet_victor_2931,0
+73_ford maverick_whiskey_3029,0
+73_plymouth duster_xray_2893,1
+73_volkswagen super beetle_yankee_1962,1
+73_chevrolet impala_zulu_5012,0
+73_ford country_alpha_4896,0
+74_plymouth custom suburb_bravo_4644,0
+73_oldsmobile vista cruiser_charlie_4500,0
+72_amc gremlin_delta_2783,0
+71_toyota carina_echo_2267,0
+73_chevrolet vega_foxtrot_2410,0
+73_datsun 610_golf_2382,0
+74_maxda rx3_hotel_2116,0
+73_ford pinto_india_2322,0
+73_mercury capri v6_juliet_2464,0
+73_fiat 124 sport coupe_kilo_2270,1
+73_chevrolet monte carlo s_lima_4079,0
+71_pontiac grand prix_mike_4284,0
+74_fiat 128_november_1873,1
+73_opel manta_oscar_2164,1
+71_audi 100ls_papa_2586,1
+73_volvo 144ea_quebec_2856,0
+73_dodge dart custom_romeo_3394,0
+74_saab 99le_sierra_2671,1
+73_toyota mark ii_tango_2795,0
+73_oldsmobile omega_uniform_3678,0
+73_plymouth duster_victor_3099,0
+73_ford maverick_whiskey_2889,0
+74_amc hornet_xray_2894,0
+72_chevrolet nova_yankee_3332,0
+74_datsun b210_zulu_1959,1
+74_ford pinto_alpha_2452,1
+74_toyota corolla 1200_bravo_1834,1
+73_chevrolet vega_charlie_2548,1
+74_chevrolet chevelle malibu classic_delta_3790,0
+73_amc matador_echo_3627,0
+74_plymouth satellite sebring_foxtrot_3622,0
+74_ford gran torino_golf_4134,0
+74_buick century luxus (sw)_hotel_4702,0
+74_dodge coronet custom (sw)_india_4459,0
+74_ford gran torino (sw)_juliet_4639,0
+74_amc matador (sw)_kilo_4249,0
+74_audi fox_lima_2211,1
+75_volkswagen dasher_mike_1950,1
+74_opel manta_november_2304,1
+75_toyota corona_oscar_1658,1
+75_datsun 710_papa_1994,1
+74_dodge colt_quebec_2118,1
+72_fiat 128_romeo_2120,1
+74_fiat 124 tc_sierra_2231,1
+74_honda civic_tango_2475,1
+74_subaru_uniform_2405,1
+73_fiat x1.9_victor_1991,1
+75_plymouth valiant custom_whiskey_3277,0
+74_chevrolet nova_xray_3466,0
+75_mercury monarch_yankee_3429,0
+75_ford maverick_zulu_3160,0
+75_pontiac catalina_alpha_4681,0
+75_chevrolet bel air_bravo_4442,0
+76_plymouth grand fury_charlie_4494,0
+75_ford ltd_delta_4664,0
+76_buick century_echo_3904,0
+76_chevroelt chevelle malibu_foxtrot_3905,0
+75_amc matador_golf_3745,0
+75_plymouth fury_hotel_3783,0
+75_buick skyhawk_india_3046,0
+75_chevrolet monza 2+2_juliet_3228,0
+74_ford mustang ii_kilo_3157,0
+77_toyota corolla_lima_2185,1
+73_ford pinto_mike_2640,1
+75_amc gremlin_november_2909,0
+75_pontiac astro_oscar_2596,1
+74_toyota corona_papa_2689,1
+74_volkswagen dasher_quebec_2231,1
+74_datsun 710_romeo_2557,1
+74_ford pinto_sierra_2989,0
+76_volkswagen rabbit_tango_1942,1
+75_amc pacer_uniform_3212,0
+75_audi 100ls_victor_2698,1
+74_peugeot 504_whiskey_2969,1
+75_volvo 244dl_xray_2953,0
+74_saab 99le_yankee_2667,1
+73_honda civic cvcc_zulu_1800,1
+74_fiat 131_alpha_2478,1
+76_opel 1900_bravo_2235,1
+76_capri ii_charlie_2561,1
+78_dodge colt_delta_2258,1
+77_renault 12tl_echo_2217,1
+76_chevrolet chevelle malibu classic_foxtrot_4209,0
+75_dodge coronet brougham_golf_4193,0
+76_amc matador_hotel_3969,0
+77_ford gran torino_india_4201,0
+76_plymouth valiant_juliet_3241,0
+78_chevrolet nova_kilo_3355,0
+77_ford maverick_lima_2998,1
+76_amc hornet_mike_3099,0
+76_chevrolet chevette_november_2050,1
+78_chevrolet woody_oscar_2177,1
+75_vw rabbit_papa_1936,1
+74_honda civic_quebec_1801,1
+77_dodge aspen se_romeo_3649,0
+76_ford granada ghia_sierra_3561,0
+76_pontiac ventura sj_tango_3639,0
+75_amc pacer d/l_uniform_3207,0
+76_volkswagen rabbit_victor_1829,1
+76_datsun b-210_whiskey_2001,1
+77_toyota corolla_xray_2145,1
+76_ford pinto_yankee_2553,1
+76_volvo 245_zulu_3160,0
+76_plymouth volare premier v8_alpha_3944,0
+75_peugeot 504_bravo_3275,0
+76_toyota mark ii_charlie_2939,0
+74_mercedes-benz 280s_delta_3813,0
+77_cadillac seville_echo_4376,0
+75_chevy c10_foxtrot_4065,0
+76_ford f108_golf_3881,0
+76_dodge d100_hotel_3768,0
+77_honda accord cvcc_india_2038,1
+77_buick opel isuzu deluxe_juliet_2159,1
+79_renault 5 gtl_kilo_1818,1
+77_plymouth arrow gs_lima_2297,1
+77_datsun f-10 hatchback_mike_1960,1
+77_chevrolet caprice classic_november_3873,0
+77_oldsmobile cutlass supreme_oscar_4046,0
+77_dodge monaco brougham_papa_4153,0
+76_mercury cougar brougham_quebec_4287,0
+77_chevrolet concours_romeo_3530,0
+77_buick skylark_sierra_3414,0
+77_plymouth volare custom_tango_3631,0
+77_ford granada_uniform_3510,0
+77_pontiac grand prix lj_victor_4230,0
+78_chevrolet monte carlo landau_whiskey_4168,0
+77_chrysler cordoba_xray_4328,0
+77_ford thunderbird_yankee_4336,0
+77_volkswagen rabbit custom_zulu_1932,1
+77_pontiac sunbird coupe_alpha_2735,1
+78_toyota corolla liftback_bravo_2257,1
+77_ford mustang ii 2+2_charlie_2762,1
+77_chevrolet chevette_delta_2042,1
+77_dodge colt m/m_echo_2060,1
+76_subaru dl_foxtrot_1999,1
+77_volkswagen dasher_golf_2202,1
+78_datsun 810_hotel_2820,0
+77_bmw 320i_india_2587,0
+76_mazda rx-4_juliet_2731,0
+78_volkswagen rabbit custom diesel_kilo_1976,1
+78_ford fiesta_lima_1795,1
+77_mazda glc deluxe_mike_1975,1
+78_datsun b210 gx_november_2060,1
+78_honda civic cvcc_oscar_1809,1
+78_oldsmobile cutlass salon brougham_papa_3378,0
+80_dodge diplomat_quebec_3723,0
+77_mercury monarch ghia_romeo_3565,0
+78_pontiac phoenix lj_sierra_3524,0
+80_chevrolet malibu_tango_3153,0
+78_ford fairmont (auto)_uniform_2966,0
+78_ford fairmont (man)_victor_2705,1
+78_plymouth volare_whiskey_3442,0
+78_amc concord_xray_3225,0
+78_buick century special_yankee_3365,0
+77_mercury zephyr_zulu_3085,0
+78_dodge aspen_alpha_3626,0
+78_amc concord d/l_bravo_3419,0
+78_chevrolet monte carlo landau_charlie_3410,0
+79_buick regal sport coupe (turbo)_delta_3450,0
+78_ford futura_echo_3190,0
+79_dodge magnum xe_foxtrot_4093,0
+77_chevrolet chevette_golf_2153,1
+79_toyota corona_hotel_2572,1
+78_datsun 510_india_2305,1
+80_dodge omni_juliet_2233,1
+78_toyota celica gt liftback_kilo_2505,0
+79_plymouth sapporo_lima_2751,1
+78_oldsmobile starfire sx_mike_2860,1
+78_datsun 200-sx_november_2395,1
+76_audi 5000_oscar_2815,0
+78_volvo 264gl_papa_3143,0
+78_saab 99gle_quebec_2806,0
+78_peugeot 604sl_romeo_3399,0
+79_volkswagen scirocco_sierra_1982,1
+78_honda accord lx_tango_2136,1
+79_pontiac lemans v6_uniform_3239,0
+79_mercury zephyr 6_victor_3002,0
+77_ford fairmont 4_whiskey_2875,1
+79_amc concord dl 6_xray_3257,0
+78_dodge aspen 6_yankee_3361,0
+81_chevrolet caprice classic_zulu_3844,0
+78_ford ltd landau_alpha_3718,0
+79_mercury grand marquis_bravo_3951,0
+80_dodge st. regis_charlie_3835,0
+79_buick estate wagon (sw)_delta_4352,0
+79_ford country squire (sw)_echo_4061,0
+79_chevrolet malibu classic (sw)_foxtrot_3598,0
+77_chrysler lebaron town @ country (sw)_golf_3953,0
+79_vw rabbit custom_hotel_1929,1
+78_maxda glc deluxe_india_1980,1
+79_dodge colt hatchback custom_juliet_1904,1
+79_amc spirit dl_kilo_2659,1
+79_mercedes benz 300d_lima_3531,1
+80_cadillac eldorado_mike_3903,1
+78_peugeot 504_november_3203,1
+77_oldsmobile cutlass salon brougham_oscar_3417,1
+81_plymouth horizon_papa_2215,1
+79_plymouth horizon tc3_quebec_2149,1
+78_datsun 210_romeo_2021,1
+79_fiat strada custom_sierra_2124,1
+79_buick skylark limited_tango_2682,1
+79_chevrolet citation_uniform_2607,1
+79_oldsmobile omega brougham_victor_2697,1
+80_pontiac phoenix_whiskey_2542,1
+82_vw rabbit_xray_2151,1
+80_toyota corolla tercel_yankee_1964,1
+80_chevrolet chevette_zulu_2132,1
+79_datsun 310_alpha_2031,1
+80_chevrolet citation_bravo_2667,1
+79_ford fairmont_charlie_2869,1
+80_amc concord_delta_3004,1
+80_dodge aspen_echo_3368,0
+82_audi 4000_foxtrot_2191,1
+80_toyota corona liftback_golf_2722,1
+80_mazda 626_hotel_2549,1
+80_datsun 510 hatchback_india_2421,1
+80_toyota corolla_juliet_2259,1
+78_mazda glc_kilo_2123,1
+79_dodge colt_lima_2808,1
+80_datsun 210_mike_2125,1
+79_vw rabbit c (diesel)_november_2081,1
+78_vw dasher (diesel)_oscar_2346,1
+80_audi 5000s (diesel)_papa_2940,1
+80_mercedes-benz 240d_quebec_3246,1
+80_honda civic 1500 gl_romeo_1837,1
+78_renault lecar deluxe_sierra_1847,1
+80_subaru dl_tango_2158,1
+79_vokswagen rabbit_uniform_1854,1
+82_datsun 280-zx_victor_2909,1
+80_mazda rx-7 gs_whiskey_2422,1
+80_triumph tr7 coupe_xray_2515,1
+80_ford mustang cobra_yankee_2912,1
+80_honda accord_zulu_2299,1
+83_plymouth reliant_alpha_2496,1
+81_buick skylark_bravo_2632,1
+80_dodge aries wagon (sw)_charlie_2633,1
+79_chevrolet citation_delta_2714,1
+82_plymouth reliant_echo_2390,1
+79_toyota starlet_foxtrot_1751,1
+79_plymouth champ_golf_1868,1
+81_honda civic 1300_hotel_1746,1
+82_subaru_india_2066,1
+79_datsun 210 mpg_juliet_1970,1
+81_toyota tercel_kilo_2063,1
+81_mazda glc 4_lima_1986,1
+81_plymouth horizon 4_mike_2220,1
+81_ford escort 4w_november_2043,1
+81_ford escort 2h_oscar_2390,1
+81_volkswagen jetta_papa_2199,1
+81_renault 18i_quebec_2315,1
+81_honda prelude_romeo_2205,1
+81_toyota corolla_sierra_2355,1
+79_datsun 200sx_tango_2622,0
+81_mazda 626_uniform_2638,1
+82_peugeot 505s turbo diesel_victor_3245,1
+81_volvo diesel_whiskey_3149,1
+81_toyota cressida_xray_2897,1
+81_datsun 810 maxima_yankee_2931,1
+81_buick century_zulu_3409,0
+81_oldsmobile cutlass ls_alpha_3737,1
+82_ford granada gl_bravo_3059,0
+81_chrysler lebaron salon_charlie_3458,0
+83_chevrolet cavalier_delta_2613,1
+82_chevrolet cavalier wagon_echo_2648,1
+82_chevrolet cavalier 2-door_foxtrot_2410,1
+81_pontiac j2000 se hatchback_golf_2566,1
+82_dodge aries se_hotel_2516,1
+82_pontiac phoenix_india_2750,1
+82_ford fairmont futura_juliet_2861,1
+81_volkswagen rabbit l_kilo_1981,1
+81_mazda glc custom l_lima_2030,1
+82_mazda glc custom_mike_1968,1
+82_plymouth horizon miser_november_2116,1
+82_mercury lynx l_oscar_2127,1
+82_nissan stanza xe_papa_2175,1
+82_honda accord_quebec_2213,1
+82_toyota corolla_romeo_2248,1
+83_honda civic_sierra_1958,1
+82_honda civic (auto)_tango_1960,1
+82_datsun 310 gx_uniform_1999,1
+82_buick century limited_victor_2935,1
+81_oldsmobile cutlass ciera (diesel)_whiskey_3014,1
+81_chrysler lebaron medallion_xray_2573,1
+83_ford granada l_yankee_2829,0
+83_toyota celica gt_zulu_2661,1
+82_dodge charger 2.2_alpha_2381,1
+82_chevrolet camaro_bravo_2944,1
+81_ford mustang gl_charlie_2802,1
+81_vw pickup_delta_2137,1
+82_dodge rampage_echo_2290,1
+81_ford ranger_foxtrot_2611,1
+84_chevy s-10_golf_2724,1
