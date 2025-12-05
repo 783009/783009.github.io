@@ -620,7 +620,7 @@ div.sk-label-container:hover .sk-estimator-doc-link.fitted:hover,
     height: 14px;
     cursor: pointer;
 }
-</style><body><div id="sk-container-id-1" class="sk-top-container"><div class="sk-text-repr-fallback"><pre>Pipeline(steps=[(&#x27;prep&#x27;,
+</style><body><div id="sk-container-id-1" class="sk-top-container" style="max-width: 750px; height: 500px; overflow: auto; margin: 20px auto;"><div class="sk-text-repr-fallback"><pre>Pipeline(steps=[(&#x27;prep&#x27;,
                  ColumnTransformer(transformers=[(&#x27;scale&#x27;,
                                                   Pipeline(steps=[(&#x27;imp&#x27;,
                                                                    SimpleImputer(strategy=&#x27;median&#x27;)),
