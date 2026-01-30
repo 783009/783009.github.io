@@ -10,6 +10,8 @@ math: true
 
 Predicting student performance is a classic regression challenge, but when you're competing against thousands of other models, the difference between "good" and "elite" comes down to the smallest iterations. After 14 versions of intense experimentation, I’ve documented the all versions of my journey here.
 
+At the time of writing this blog post i am #42 on the leaderboard with a score of 8.54361. Here is a link to the [Kaggle Compitition](https://www.kaggle.com/competitions/playground-series-s6e1/leaderboard#) and my username is Mohamed Lahkim.
+
 ---
 # Standing on the Shoulders of Giants: Winning the Student Exam Score Competition
 
@@ -112,7 +114,7 @@ Each version below represents a tangible improvement in my RMSE score.
 
 ## Final Analysis & Conclusion
 
-What did we learn? First, **EDA is everything.** Without Rayan’s work on the feature set, no amount of ensembling would have gotten us into the 8.544 range. Second, **don't be afraid to stack.** The community is a resource—use the best public ideas as your floor, not your ceiling.
+What did we learn? First, **EDA is everything.** Without Rayan’s work on the feature set, no amount of ensembling would have gotten us into the 8.544 range. Second, **don't be afraid to stack.** The community is a resource—use the best public ideas as your floor, not your ceiling. Honestly the hardest part of this compitition was how you're constantly being sent back in the leaderboard. For example your model does really well and you are 20th on the leaderboard but when you come back the next day you're 50th.
 
 The jump from Version 1 (RMSE ~8.60) to Version 14 (RMSE 8.54462) wasn't about finding a "magical" new algorithm. It was about:
 1.  **Cleaning the Stack:** Using MD5 to remove redundant models.
