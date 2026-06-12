@@ -10,6 +10,34 @@ math: true
 
 This post compiles the 5 individual learning log entries required for the ICS3U Final Programming Project. Each entry focuses on a specific programming concept implemented during the development of *Quantum Blink*.
 
+# Quantum Blink - Final Project Learning Logs
+
+This post compiles the 5 individual learning log entries required for the ICS3U Final Programming Project.
+
+---
+
+## Play Quantum Blink Live
+
+Test your reflexes and use your short-range teleporter to phase through contaminated sectors directly in the terminal below! 
+
+* **Controls:** Use **WASD** or **Arrow Keys** to move/jump, and press **SPACE** or **Z** to blink through enemies and eliminate them.
+
+<div style="position: relative; width: 100%; padding-bottom: 66.66%; height: 0; overflow: hidden; border: 3px solid #00f0ff; border-radius: 12px; background: #0c141c; box-shadow: 0 0 20px rgba(0, 240, 255, 0.25); margin: 25px 0;">
+  <iframe 
+    src="https://783009.github.io/Quantum-Blink/" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    allow="fullscreen">
+  </iframe>
+</div>
+
+### 🖥️ Full Screen Presentation Terminal
+For the best visual scaling, zero input lag, and full-resolution presentation gameplay, launch the standalone application tab:
+
+👉 **[Launch Quantum Blink in Full Screen Mode](https://783009.github.io/Quantum-Blink/)**
+
+---
+
+
 ---
 
 ## Log 1: Variables & Data Tracking
