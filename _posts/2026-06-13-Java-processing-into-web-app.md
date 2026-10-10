@@ -13,6 +13,14 @@ We will use a free library called **Processing.js**, which reads your Java-style
 
 > 🎮 **Live Example:** You can see exactly how a finished project looks and runs by checking out the [Quantum Blink Live Game](https://783009.github.io/Quantum-Blink/). You can also view its full source code layout directly inside the [Quantum Blink GitHub Repository](https://github.com/783009/Quantum-Blink) to use as a reference while following this guide!
 
+<div style="position: relative; width: 100%; padding-bottom: 66.66%; height: 0; overflow: hidden; border: 3px solid #00f0ff; border-radius: 12px; background: #0c141c; box-shadow: 0 0 20px rgba(0, 240, 255, 0.25); margin: 25px 0;">
+  <iframe 
+    src="https://783009.github.io/Quantum-Blink/" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"
+    allow="fullscreen">
+  </iframe>
+</div>
+
 ---
 
 ## Step 1: Locate Your Game Files on Your Computer
@@ -58,7 +66,7 @@ An `index.html` file acts as the front door to your website. It tells the browse
 1. Open a basic text editor on your computer (like **Notepad** on Windows or **TextEdit** on Mac set to plain text mode).
 2. Paste the following web skeleton code into the blank document and make sure to change this line `<canvas data-processing-sources="MyGame.pde"></canvas>` to match your games actual filename:
 
-``` HTML
+``` html
 <!DOCTYPE html>
 <html>
 <head>
