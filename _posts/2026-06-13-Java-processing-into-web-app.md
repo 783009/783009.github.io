@@ -274,7 +274,7 @@ jump  = "data/jump.wav";
 ### 2. Paste the Web Audio Helper Functions
 Scroll to the **absolute bottom** of your `.pde` game code file and paste this block of controller functions. This system bypasses Processing's heavy desktop compiler dependencies and uses the web browser's native HTML5 audio components directly:
 
-```
+``` java
 // --- COMPILER-SAFE WEB AUDIO HELPERS ---
 void playSound(Object sound) {
   if (sound == null) return;
